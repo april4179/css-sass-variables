@@ -1,0 +1,111 @@
+:root {
+	--bg-color-primary: #233258;
+	--bg-color-secondary: #2f496b;
+	--border-primary: 1px solid #bd8c70;
+	--font-family-primary: 'Roboto', sans-serif;
+}
+* {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	min-height: 100vh;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-color: var(--bg-color-primary);
+	color: white;
+}
+.nav-list {
+	display: grid;
+	justify-content: space-evenly;
+	width: 100%;
+    text-align: right;
+    list-style: none;
+}
+/* ul { */
+	/* justify-content: right; */
+	/* margin: 10px; */
+	/* display: grid; */
+	/* grid-template-rows: auto; */
+}
+/* .li a { */
+	list-style: none;
+	justify-content: space-evenly;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.meet-button {
+	display: block;
+	width: 6rem;
+	margin: 0 auto;
+	margin-bottom: 1.35rem;
+	padding: 1.25rem;
+	background-color: var(--bg-color-secondary);
+	color: #bd8c70;
+}
+button:hover {
+	background-color: var(--bg-color-secondary);
+	color: var(--bg-color-primary);
+}
+
+.header {
+	padding: 1.25rem;
+
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+
+	background-color: var(--bg-color-primary);
+
+	border: 1px solid #bd8c70;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+	border-color: var(--border-primary);
+}
+.header-title {
+	font-family: var(--font-family-primary);
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+}
+.header-body {
+	font-size: 20px;
+	font-family: var(--font-family-primary);
+}
+.hero {
+	padding: 1.5rem;
+	border-color: var(--border-primary);
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+
+.meet {
+	font-family: var(--font-family-primary);
+	font-size: 20px;
+	padding: 1.5rem;
+	border: 1px solid #bd8c70;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+.meet-title {
+	font-family: var(--font-family-primary);
+	font-size: 22px;
+	text-align: center;
+	padding: 1.5rem;
+	border: 1px solid #bd8c70;
+	border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+}
